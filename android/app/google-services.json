@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "255826948372",
+    "project_id": "waxswapproject",
+    "storage_bucket": "waxswapproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255826948372:android:f4e30f0d64b250e0665201",
+        "android_client_info": {
+          "package_name": "com.hexims.waxswap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255826948372-3sm694i3meg95o5mqb8d1t04bv6qqouk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hexims.waxswap",
+            "certificate_hash": "f93d2ccc9d440d2e467051675a31b2fb07ad50cb"
+          }
+        },
+        {
+          "client_id": "255826948372-fp55su42l30uiqgehvd9bjkf555uofpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUqijnRuqoeIZV-P-djsHnl4VSpSQEJfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255826948372-fp55su42l30uiqgehvd9bjkf555uofpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
