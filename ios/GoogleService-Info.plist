@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>787173364961-itehjaovbn31ccv9c1rb90u7qllgf6sq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.787173364961-itehjaovbn31ccv9c1rb90u7qllgf6sq</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>787173364961-iqgqq96o7ue6ts1j3uojpf6cvn8krcc1.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBHq7qH8ZcdCdZ1vjEyoQwhZXkvGqgkNDs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>787173364961</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.waxplace.co</string>
+	<key>PROJECT_ID</key>
+	<string>waxplaceco</string>
+	<key>STORAGE_BUCKET</key>
+	<string>waxplaceco.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:787173364961:ios:1f5ad24a2269d687f713a0</string>
+	<key>DATABASE_URL</key>
+	<string>https://waxplaceco-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

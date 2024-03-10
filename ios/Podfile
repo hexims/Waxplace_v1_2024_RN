@@ -1,0 +1,133 @@
+# require_relative '../node_modules/react-native/scripts/react_native_pods'
+# require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+# platform :ios, '13.0'
+# use_frameworks! :linkage => :static
+
+# target 'waxswap' do
+#   config = use_native_modules!
+
+#   use_react_native!(
+#     :path => config[:reactNativePath],
+#     # to enable hermes on iOS, change `false` to `true` and then install pods
+#     :hermes_enabled => false
+#   )
+  
+#   permissions_path = '../node_modules/react-native-permissions/ios'
+#   pod 'Permission-LocationAccuracy', :path => "#{permissions_path}/LocationAccuracy"
+#   pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways"
+#   pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
+#   pod 'Permission-Camera', :path => "#{permissions_path}/Camera/Permission-Camera.podspec"
+
+
+#   # pod 'TouchID', :path => '../node_modules/react-native-touch-id'
+
+
+#   # pod 'RNSentry', :path => '../node_modules/@sentry/react-native'
+
+#   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+#   pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
+#   # pod 'RNSoundPlayer', :path => '../node_modules/react-native-sound-player'
+
+#   pod 'react-native-track-player', :path => '../node_modules/react-native-track-player'
+
+#   pod 'react-native-slider', :path => '../node_modules/@react-native-community/slider'
+
+#   pod 'react-native-cookies', :path => '../node_modules/@react-native-community/cookies'
+
+#   pod 'RNShare', :path => '../node_modules/react-native-share'
+
+#   pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+
+
+
+pod 'RNAudioRecorderPlayer', :path => '../node_modules/react-native-audio-recorder-player'
+
+#   target 'waxswapTests' do
+#     inherit! :complete
+#     # Pods for testing
+#   end
+
+
+
+
+
+
+#   rn_maps_path = '../node_modules/react-native-maps'
+#   pod 'react-native-google-maps', :path => rn_maps_path
+#   pod 'GoogleMaps'
+#   # Enables Flipper.
+#   #
+#   # Note that if you have use_frameworks! enabled, Flipper will not work and
+#   # you should disable the next line.
+#   use_flipper!()
+
+#   post_install do |installer|
+#     react_native_post_install(installer)
+#     __apply_Xcode_12_5_M1_post_install_workaround(installer)
+#   end
+# end
+
+
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '14.0'
+
+target 'waxswap' do
+  config = use_native_modules!
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # to enable hermes on iOS, change `false` to `true` and then install pods
+    :hermes_enabled => false
+  )
+  
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-LocationAccuracy', :path => "#{permissions_path}/LocationAccuracy"
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera/Permission-Camera.podspec"
+
+
+  # pod 'TouchID', :path => '../node_modules/react-native-touch-id'
+
+
+  # pod 'RNSentry', :path => '../node_modules/@sentry/react-native'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
+  # pod 'RNSoundPlayer', :path => '../node_modules/react-native-sound-player'
+
+  pod 'react-native-track-player', :path => '../node_modules/react-native-track-player'
+
+  pod 'react-native-slider', :path => '../node_modules/@react-native-community/slider'
+  
+  target 'waxswapTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  pod 'GoogleMaps'
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable the next line.
+  # use_flipper!()
+
+
+  # post_install do |installer|
+  #   react_native_post_install(installer)
+  #  __apply_Xcode_12_5_M1_post_install_workaround(installer)
+  #   end
+end
+
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignalXCFramework', '>= 3.0', '< 4.0'
+end

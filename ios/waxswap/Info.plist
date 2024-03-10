@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>WAXPLACE</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleGetInfoString</key>
+	<string>NSUserTrackingUsageDescription</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>WAXPLACE</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string></string>
+				<string>com.googleusercontent.apps.787173364961-itehjaovbn31ccv9c1rb90u7qllgf6sq</string>
+				<string>fb1933828080295548</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>waxplace</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>FacebookAppID</key>
+	<string>1933828080295548</string>
+	<key>FacebookClientToken</key>
+	<string>415fff9c4da487d2d7005387d42e7b83</string>
+	<key>FacebookDisplayName</key>
+	<string>WAXPLACE</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow the Stoke App to use your camera so you can easily snap a 10/10 selfie for your profile pic.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow the Stoke app to use your location to give you better trip and experience options? There might be something for you just around the corner.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow the Stoke app to use your location to give you better trip and experience options? There might be something for you just around the corner.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Allow the Stoke app to use your location to give you better trip and experience options? There might be something for you just around the corner.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow the Stoke app to use your location to give you better trip and experience options? There might be something for you just around the corner.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow the WaxPlace App to use your Microphone so you may use thecamera seamlessly.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>CHANGEME: Motion updates increase battery efficiency by intelligently toggling location-services when device is detected to be moving</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow the Stoke App access to your Gallery so you can choose a profile picture from your phone. We bet you&apos;ve got some fire on there!</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This app uses your data for payment gateway and shipping purposes.</string>
+	<key>OneSignal_disable_badge_clearing</key>
+	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GothamBold.ttf</string>
+		<string>GothamBoldItalic.ttf</string>
+		<string>GothamBook.ttf</string>
+		<string>GothamBookItalic.ttf</string>
+		<string>GothamLight.ttf</string>
+		<string>GothamLightItalic.ttf</string>
+		<string>GothamMedium.ttf</string>
+		<string>GothamMediumItalic.ttf</string>
+		<string>Gotham-Bold.otf</string>
+		<string>Gotham-Light.otf</string>
+		<string>Gotham-Thin.otf</string>
+		<string>Gotham-Black.otf</string>
+		<string>Fjalla-One.otf</string>
+		<string>Fjalla.ttf</string>
+		<string>Montserrat-Black.ttf</string>
+		<string>Montserrat-BlackItalic.ttf</string>
+		<string>Montserrat-Bold.ttf</string>
+		<string>Montserrat-BoldItalic.ttf</string>
+		<string>Montserrat-ExtraBold.ttf</string>
+		<string>Montserrat-ExtraBoldItalic.ttf</string>
+		<string>Montserrat-ExtraLight.ttf</string>
+		<string>Montserrat-ExtraLightItalic.ttf</string>
+		<string>Montserrat-Italic.ttf</string>
+		<string>Montserrat-Light.ttf</string>
+		<string>Montserrat-LightItalic.ttf</string>
+		<string>Montserrat-Medium.ttf</string>
+		<string>Montserrat-MediumItalic.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+		<string>Montserrat-SemiBold.ttf</string>
+		<string>Montserrat-SemiBoldItalic.ttf</string>
+		<string>Montserrat-Thin.ttf</string>
+		<string>Montserrat-ThinItalic.ttf</string>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen.storyboard</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
